@@ -11,21 +11,23 @@
   margin: 16px auto 0;
 }
 
-.u-section-1 .u-text-2 {
-  font-weight: 100;
-  margin: 27px auto 0;
+.u-section-1 .u-custom-html-1 {
+  margin-top: 14px;
+  margin-bottom: 0;
+  height: auto;
+  min-height: 73px;
 }
 
 .u-section-1 .u-image-1 {
   width: 217px;
   height: 217px;
-  background-image: url("images/github-pfp.png");
+  background-image: url("images/github-pfp.png?rand=ef58");
   background-position: 50% 50%;
   transition-duration: 0.5s;
-  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   box-shadow: 0px 0px 0px rgba(0,0,0,0);
   text-shadow: 0px 0px 0px rgba(0,0,0,0);
-  margin: 27px auto 60px;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  margin: 7px auto 60px;
 }
 
 @media (max-width: 1199px) {
@@ -81,7 +83,7 @@
 .u-container-layout.hover .u-section-1 .u-image-1 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 } .u-section-2 {
-  background-image: none;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("images/ac968f71d7ccf09211dff062203a1aad83f431b961a87fb31ddb7be8f0b2ae461bf59fb18c44ac7255b7420a364cbf4f4c3840895f3c6b9dbc34cc_1280.jpg");
 }
 
 .u-section-2 .u-sheet-1 {
@@ -103,7 +105,6 @@
   grid-template-columns: calc(33.3333% - 16px) calc(33.3333% - 16px) calc(33.3333% - 16px);
   min-height: 498px;
   grid-gap: 24px 24px;
-  grid-auto-columns: calc(33.3333% - 16px);
 }
 
 .u-section-2 .u-list-item-1 {
@@ -221,10 +222,12 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-2 {
+    background-position: 50% 50%;
+  }
+
   .u-section-2 .u-repeater-1 {
     min-height: 407px;
-    grid-template-columns: repeat(3, calc(33.333333333333336% - 16px));
-    grid-auto-columns: calc(33.333333333333336% - 16px);
   }
 
   .u-section-2 .u-btn-1 {
@@ -251,23 +254,17 @@
 @media (max-width: 991px) {
   .u-section-2 .u-repeater-1 {
     min-height: 977px;
-    grid-template-columns: repeat(2, calc(50% - 12px));
-    grid-auto-columns: calc(50% - 12px);
+    grid-template-columns: calc(50% - 12px) calc(50% - 12px);
   }
 }
 
 @media (max-width: 767px) {
   .u-section-2 .u-repeater-1 {
     grid-template-columns: 100%;
-    grid-auto-columns: calc(100% - 0px);
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-2 .u-repeater-1 {
-    grid-auto-columns: 100%;
-  }
-
   .u-section-2 .u-text-4 {
     margin-top: 2px;
   }
@@ -384,5 +381,208 @@
 }
 
 .u-container-layout.hover .u-section-2 .u-list-item-3 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+} .u-section-3 {
+  background-image: url("images/66d203b2090978bded0a81ee2da0eee661aa260f8dbb5aaa164796ff133098d3ce5fb1995218f15d997ef3fb236df538e07961eed9c35b730d57aa_1280.jpg");
+}
+
+.u-section-3 .u-sheet-1 {
+  min-height: 696px;
+}
+
+.u-section-3 .u-text-1 {
+  font-weight: 100;
+  margin: 20px auto 0 20px;
+}
+
+.u-section-3 .u-list-1 {
+  grid-template-rows: auto;
+  margin-top: 26px;
+  margin-bottom: 60px;
+}
+
+.u-section-3 .u-repeater-1 {
+  grid-template-columns: calc(50% - 12px) calc(50% - 12px);
+  min-height: 498px;
+  grid-gap: 24px 24px;
+}
+
+.u-section-3 .u-list-item-1 {
+  transition-duration: 0.5s;
+  box-shadow: 0px 0px 0px rgba(0,0,0,0);
+  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+}
+
+.u-section-3 .u-container-layout-1 {
+  padding: 20px 0 11px;
+}
+
+.u-section-3 .u-icon-1 {
+  width: 155px;
+  height: 155px;
+  margin: 27px auto 0;
+  padding: 0;
+}
+
+.u-section-3 .u-text-2 {
+  font-weight: 300;
+  margin: 20px auto 0 28px;
+}
+
+.u-section-3 .u-text-3 {
+  font-weight: 300;
+  margin: 20px 251px 0 61px;
+}
+
+.u-section-3 .u-btn-1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  background-image: none;
+  margin: 20px auto 0 28px;
+}
+
+.u-section-3 .u-list-item-2 {
+  transition-duration: 0.5s;
+  box-shadow: 0px 0px 0px rgba(0,0,0,0);
+  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+}
+
+.u-section-3 .u-container-layout-2 {
+  padding: 20px 0 11px;
+}
+
+.u-section-3 .u-icon-3 {
+  width: 155px;
+  height: 155px;
+  margin: 27px auto 0;
+  padding: 0;
+}
+
+.u-section-3 .u-text-4 {
+  font-weight: 300;
+  margin: 20px auto 0 28px;
+}
+
+.u-section-3 .u-text-5 {
+  font-weight: 300;
+  margin: 20px 251px 0 61px;
+}
+
+.u-section-3 .u-btn-2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  background-image: none;
+  margin: 20px auto 0 28px;
+}
+
+@media (max-width: 1199px) {
+   .u-section-3 {
+    background-position: 50% 50%;
+  }
+
+  .u-section-3 .u-sheet-1 {
+    min-height: 574px;
+  }
+
+  .u-section-3 .u-repeater-1 {
+    min-height: 409px;
+  }
+
+  .u-section-3 .u-text-3 {
+    width: 245px;
+    margin-left: 0;
+    margin-right: 113px;
+  }
+
+  .u-section-3 .u-btn-1 {
+    margin-left: 0;
+  }
+
+  .u-section-3 .u-text-5 {
+    width: 245px;
+    margin-left: 0;
+    margin-right: 113px;
+  }
+
+  .u-section-3 .u-btn-2 {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 440px;
+  }
+
+  .u-section-3 .u-repeater-1 {
+    grid-template-columns: 100%;
+  }
+
+  .u-section-3 .u-text-3 {
+    margin-right: 0;
+  }
+
+  .u-section-3 .u-text-5 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 330px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 208px;
+  }
+}
+
+.u-section-3 .u-list-item-1,
+.u-section-3 .u-list-item-1:before,
+.u-section-3 .u-list-item-1 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+}
+
+.u-section-3 .u-container-layout:hover .u-list-item-1 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-section-3 .u-list-item-1 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-section-3 .u-list-item-2,
+.u-section-3 .u-list-item-2:before,
+.u-section-3 .u-list-item-2 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+}
+
+.u-section-3 .u-container-layout:hover .u-list-item-2 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-section-3 .u-list-item-2 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-block-90b6-20:not([data-block-selected]):not([data-cell-selected]),
+.u-block-90b6-20:not([data-block-selected]):not([data-cell-selected]):before,
+.u-block-90b6-20:not([data-block-selected]):not([data-cell-selected]) > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+}
+
+.u-container-layout:hover .u-block-90b6-20:not([data-block-selected]):not([data-cell-selected]) {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-block-90b6-20:not([data-block-selected]):not([data-cell-selected]) {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 }
